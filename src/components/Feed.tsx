@@ -36,6 +36,7 @@ const Feed: React.FC = () => {
   
     return (
         <div className="feed">
+            <h1>Rick and Morty Characters</h1>
             <Images imagesData={images} />
             <Pagination 
                 className="pagination"
